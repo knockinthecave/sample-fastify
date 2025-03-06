@@ -1,0 +1,27 @@
+# Node.js 모듈 (npm install 시 생성되는 폴더)
+node_modules
+
+# 빌드된 JS 파일 (TypeScript 컴파일 결과)
+dist
+build
+out
+
+# 환경 변수 파일 (보안 유지)
+.env
+.env.local
+.env.development
+.env.production
+
+# 로그 파일
+logs
+*.log
+
+# Git 관련 폴더
+.git
+
+# ESLint 캐시
+.eslintcache
+
+# Fastify Swagger 문서 자동 생성 파일 (필요 시 추가)
+swagger.json
+swagger.yaml

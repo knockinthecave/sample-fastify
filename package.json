@@ -1,0 +1,39 @@
+{
+    "name": "sample-fastify",
+    "version": "1.0.0",
+    "description": "Fastify Sample을 통한 자바스크립트, 타입스크립트 학습",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --ext .ts",
+        "lint:fix": "eslint . --ext .ts --fix",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/knockinthecave/sample-fastify.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/knockinthecave/sample-fastify/issues"
+    },
+    "homepage": "https://github.com/knockinthecave/sample-fastify#readme",
+    "dependencies": {
+        "fastify": "^5.2.1",
+        "fastify-plugin": "^5.0.1"
+    },
+    "devDependencies": {
+        "@fastify/type-provider-typebox": "^5.1.0",
+        "@types/node": "^22.13.9",
+        "@typescript-eslint/eslint-plugin": "^8.26.0",
+        "@typescript-eslint/parser": "^8.26.0",
+        "eslint": "^9.21.0",
+        "eslint-config-prettier": "^10.0.2",
+        "eslint-plugin-prettier": "^5.2.3",
+        "prettier": "^3.5.3",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    }
+}
