@@ -1,6 +1,6 @@
 import Fastify from "fastify";
-import helloRoutes from "./routes/hello.routes";
-import userRoutes from "./routes/user.routes";
+import helloRoutes from "./src/routes/hello.routes";
+import userRoutes from "./src/routes/user.routes";
 
 const fastify = Fastify({ logger: true });
 
