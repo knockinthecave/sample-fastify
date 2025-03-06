@@ -5,17 +5,18 @@ Fastify를 사용하여 개발된 간단한 REST API 프로젝트입니다. Type
 ## 📌 프로젝트 구조
 ```
 /sample-fastify
- ├── /routes          # 라우트 관리
- │    ├── hello.routes.ts
- │    ├── user.routes.ts
- ├── /controllers     # 컨트롤러 관리
- │    ├── hello.controller.ts
- │    ├── user.controller.ts
- ├── /schemas         # API 요청/응답 스키마 관리 (TypeBox 사용)
- │    ├── hello.schema.ts
- │    ├── user.schema.ts
- ├── /services        # 비즈니스 로직 처리
- │    ├── user.service.ts
+ ├── /src              # 소스 코드 관리
+ │    ├── /routes      # 라우트 관리
+ │    │    ├── hello.routes.ts
+ │    │    ├── user.routes.ts
+ │    ├── /controllers # 컨트롤러 관리
+ │    │    ├── hello.controller.ts
+ │    │    ├── user.controller.ts
+ │    ├── /schemas     # API 요청/응답 스키마 관리 (TypeBox 사용)
+ │    │    ├── hello.schema.ts
+ │    │    ├── user.schema.ts
+ │    ├── /services    # 비즈니스 로직 처리
+ │    │    ├── user.service.ts
  ├── app.ts           # Fastify 서버 엔트리 포인트
  ├── package.json     # 프로젝트 설정 파일
  ├── tsconfig.json    # TypeScript 설정 파일
