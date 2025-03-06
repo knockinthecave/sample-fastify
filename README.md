@@ -31,17 +31,26 @@ Fastify를 사용하여 개발된 간단한 REST API 프로젝트입니다. Type
 npm install
 ```
 
-### 2️⃣ 서버 실행
+### 2️⃣ 개발 모드 실행 (`ts-node` 사용)
 ```sh
 npm run dev
 ```
+> `ts-node`를 사용하여 TypeScript 코드를 컴파일 없이 실행합니다.
 
-> `ts-node`를 사용하여 TypeScript 코드를 바로 실행합니다.
-
-### 3️⃣ 빌드 후 실행
+### 3️⃣ 빌드 후 실행 (`tsc` → `node dist/app.js`)
 ```sh
 npm run build
-node dist/app.js
+npm start
+```
+> `npm run build`로 TypeScript 코드를 `dist/` 폴더에 컴파일한 후, `npm start`로 실행합니다.
+
+📌 **`package.json`의 스크립트 설정 예시**:
+```json
+"scripts": {
+  "dev": "ts-node app.ts",
+  "build": "tsc",
+  "start": "node dist/app.js"
+}
 ```
 
 ## 📡 API 명세
